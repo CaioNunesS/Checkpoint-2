@@ -59,7 +59,7 @@ header ul {
 }
 .dropdown-menu-bg{
 background-color: #000;
-width: 100px;
+width: 50px;
 }
 .dropdown-menu-bg a{
     color: #F3F3F3;
@@ -76,6 +76,7 @@ header a {
 header a:hover{
 
     opacity: 1;
+    color: #ffffff;
 }
 
 
@@ -253,7 +254,7 @@ footer .info h1 {
 @media (max-width: 870px) {
     header ul{
         display: none;
-justify-content: center;
+        justify-content: center;
 
     }
     .image-menu{
@@ -275,3 +276,12 @@ justify-content: center;
     }
     
 }
+@media (max-width: 550px) {
+    .main-section-cards{
+        padding: 10px;
+    }
+
+    .main-section-cards .cards{
+        width: 100%;
+    }
+    }
